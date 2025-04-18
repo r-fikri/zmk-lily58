@@ -40,25 +40,25 @@
     };
 
     macros {
-        parenthesis1: bracket1 {
+        parenthesis1: parenthesis1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LPAR &kp RPAR &kp LEFT>;
-            label = "BRACKET1";
+            label = "parenthesis1";
         };
 
-        brace1: bracket1 {
+        brace1: brace1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
-            label = "BRACKET1";
+            label = "brace1";
         };
 
-        bracket2: squaredbrace1 {
+        bracket1: bracket1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
-            label = "SQUAREDBRACE1";
+            label = "bracket1";
         };
     };
 
@@ -98,11 +98,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans                 &trans             &trans             &trans                  &trans  &trans
-&kp F1          &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                     &trans                 &mt HOME N7        &mt UP_ARROW N8    &mt PG_UP N9            &trans  &trans
-&kp F7          &kp F8        &kp F9        &kp F10       &kp F11       &kp F12                                    &kp LEFT_PARENTHESIS   &mt LEFT NUMBER_4  &mt DOWN N5        &mt RIGHT NUMBER_6      &trans  &trans
-&studio_unlock  &trans        &trans        &trans        &trans        &trans        &studio_unlock    &trans     &kp RIGHT_PARENTHESIS  &mt END NUMBER_1   &mt DOWN NUMBER_2  &mt PAGE_DOWN NUMBER_3  &trans  &trans
-                                            &trans        &trans        &trans        &kp ENTER         &kp SPACE  &mt DELETE PERIOD      &kp N0             &tog 3
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans             &kp KP_NUM            &kp KP_DIVIDE             &kp ASTERISK               &kp KP_SUBTRACT  &trans
+&kp F1          &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                     &brace1            &mt HOME KP_NUMBER_7  &mt UP_ARROW KP_NUMBER_8  &mt PG_UP KP_NUMBER_9      &kp KP_PLUS      &trans
+&kp F7          &kp F8        &kp F9        &kp F10       &kp F11       &kp F12                                    &parenthesis1      &mt LEFT KP_NUMBER_4  &mt DOWN KP_NUMBER_5      &mt RIGHT KP_NUMBER_6      &kp STAR         &trans
+&studio_unlock  &trans        &trans        &trans        &trans        &trans        &studio_unlock    &trans     &brace1            &mt END KP_NUMBER_7   &mt DOWN KP_NUMBER_8      &mt PAGE_DOWN KP_NUMBER_9  &kp KP_SLASH     &trans
+                                            &tog 0        &tog 1        &trans        &kp ENTER         &kp SPACE  &mt DELETE KP_DOT  &kp KP_NUMBER_0       &tog 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
