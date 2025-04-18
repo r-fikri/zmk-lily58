@@ -39,6 +39,29 @@
         };
     };
 
+    macros {
+        parenthesis1: bracket1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LPAR &kp RPAR &kp LEFT>;
+            label = "BRACKET1";
+        };
+
+        brace1: bracket1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
+            label = "BRACKET1";
+        };
+
+        bracket2: squaredbrace1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "SQUAREDBRACE1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
