@@ -73,8 +73,6 @@
 &kp LSHFT  &kp Z            &kp X            &kp C         &kp V              &kp B   &kp LBKT              &kp RBKT   &kp N          &kp M          &kp COMMA             &kp DOT           &kp SLASH                 &kp RSHFT
                                              &kp LALT      &kp LGUI           &tog 1  &mt LEFT_SHIFT RET    &kp SPACE  &kp BACKSPACE  &kp RIGHT_ALT  &lt 2 K_CONTEXT_MENU
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         COLEMAK-DH-HOMEROWMOD {
