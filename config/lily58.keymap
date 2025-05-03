@@ -103,11 +103,11 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&none  &none      &none     &none      &none      &none                         &none  &none         &none          &none        &none        &none
-&none  &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC                      &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &bootloader  &none
-&none  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                      &none  &kp LSHFT     &kp LCTRL      &kp LALT     &kp LGUI     &none
-&none  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE  &none        &none  &none  &u_to_U_SYM   &u_to_U_MOUSE  &kp RALT     &none        &none
-                            &none      &kp LPAR   &kp RPAR  &kp UNDER    &none  &none  &none         &none
+&none  &none            &none              &none      &none          &none                            &none             &none                 &none         &none                  &none              &none
+&none  &kp SQT          &kp DOUBLE_QUOTES  &kp CARET  &kp BACKSLASH  &kp TILDE                        &kp LEFT_BRACKET  &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &kp RIGHT_BRACKET  &none
+&none  &kp EXCLAMATION  &kp AT             &kp HASH   &kp DOLLAR     &kp PERCENT                      &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp COLON     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp SEMICOLON
+&none  &kp GRAVE        &kp QUESTION       &kp AT     &kp SLASH      &kp MINUS    &none        &none  &kp PIPE          &kp AMPERSAND         &kp ASTERISK  &kp PLUS               &kp UNDERSCORE     &kp KP_MINUS
+                                           &none      &kp LPAR       &kp RPAR     &kp UNDER    &none  &none             &none                 &none
             >;
         };
 
