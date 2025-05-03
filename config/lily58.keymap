@@ -280,7 +280,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to 0>;
+            bindings = <&none>, <&to 1>;
         };
     };
 };
@@ -291,7 +291,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to 3>;
+            bindings = <&none>, <&to 2>;
         };
     };
 };
