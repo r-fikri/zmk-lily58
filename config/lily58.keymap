@@ -62,7 +62,7 @@
 &none  &kp K_UNDO  &kp LS(DEL)  &kp LC(INS)  &kp LS(INS)  &kp K_AGAIN                        &kp K_AGAIN  &kp LS(INS)  &kp LC(INS)  &kp LS(DEL)  &kp K_UNDO  &none
 &none  &kp LGUI    &kp LALT     &kp LCTRL    &kp LSHFT    &none                              &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI    &none
 &none  &kp K_UNDO  &kp LS(DEL)  &kp LC(INS)  &kp LS(INS)  &kp K_AGAIN  &none       &none     &kp K_AGAIN  &kp LS(INS)  &kp LC(INS)  &kp LS(DEL)  &kp K_UNDO  &none
-                                &none        &mkp MB3     &mkp MB1     &mkp MB2    &mkp MB2  &mkp MB1     &mkp MB3     &none
+                                &to 0        &mkp MB3     &mkp MB1     &mkp MB2    &mkp MB2  &mkp MB1     &mkp MB3     &none
             >;
         };
 
@@ -73,7 +73,7 @@
 &none  &bootloader  &u_to_U_TAP  &u_to_U_EXTRA  &u_to_U_BASE  &none                    &kp K_AGAIN   &kp LS(INS)  &kp LC(INS)  &kp LS(DEL)  &kp K_UNDO  &none
 &none  &kp LGUI     &kp LALT     &kp LCTRL      &kp LSHFT     &none                    &u_caps_word  &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT   &none
 &none  &none        &kp RALT     &u_to_U_NUM    &u_to_U_NAV   &none  &none    &none    &kp INS       &kp HOME     &kp PG_DN    &kp PG_UP    &kp END     &none
-                                 &none          &none         &none  &none    &kp RET  &kp BSPC      &kp DEL      &none
+                                 &to 0          &none         &none  &none    &kp RET  &kp BSPC      &kp DEL      &none
             >;
         };
 
@@ -84,7 +84,7 @@
 &none  &bootloader  &u_to_U_TAP  &u_to_U_EXTRA  &u_to_U_BASE   &none                     &kp K_AGAIN  &kp LS(INS)  &kp LC(INS)  &kp LS(DEL)   &kp K_UNDO  &none
 &none  &kp LGUI     &kp LALT     &kp LCTRL      &kp LSHFT      &none                     &none        &kp KP_N4    &kp KP_N2    &kp KP_N8     &kp KP_N6   &none
 &none  &none        &kp RALT     &u_to_U_SYM    &u_to_U_MOUSE  &none  &none    &none     &none        &kp LEFT     &kp DOWN     &kp UP_ARROW  &kp RIGHT   &none
-                                 &none          &none          &none  &none    &mkp MB2  &mkp MB1     &mkp MB3     &none
+                                 &to 0          &none          &none  &none    &mkp MB2  &mkp MB1     &mkp MB3     &none
             >;
         };
 
@@ -95,7 +95,7 @@
 &none  &bootloader  &u_to_U_TAP  &u_to_U_EXTRA  &u_to_U_BASE   &none                                      &rgb_ug RGB_TOG    &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none
 &none  &kp LGUI     &kp LALT     &kp LCTRL      &kp LSHFT      &studio_unlock                             &ext_power EP_TOG  &kp C_PREV       &kp C_VOL_DN     &kp C_VOL_UP     &kp C_NEXT       &none
 &none  &none        &kp RALT     &u_to_U_FUN    &u_to_U_MEDIA  &none           &none    &ext_power EP_ON  &u_out_tog         &u_bt_sel_0      &u_bt_sel_1      &u_bt_sel_2      &u_bt_sel_3      &none
-                                 &none          &none          &none           &none    &kp C_STOP        &kp C_PP           &kp C_MUTE       &none
+                                 &to 0          &none          &none           &none    &kp C_STOP        &kp C_PP           &kp C_MUTE       &none
             >;
         };
 
@@ -106,7 +106,7 @@
 &none  &kp LBKT   &kp N7  &kp N8  &kp N9   &kp RBKT                       &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &bootloader  &none
 &none  &kp SEMI   &kp N4  &kp N5  &kp N6   &kp EQUAL                      &none  &kp LSHFT     &kp LCTRL      &kp LALT     &kp LGUI     &none
 &none  &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp BSLH   &none        &none  &none  &u_to_U_NUM   &u_to_U_NAV    &kp RALT     &none        &none
-                          &none   &kp DOT  &kp N0     &kp MINUS    &none  &none  &none         &none
+                          &to 0   &kp DOT  &kp N0     &kp MINUS    &none  &none  &none         &none
             >;
         };
 
@@ -117,7 +117,7 @@
 &none  &kp SQT          &kp DOUBLE_QUOTES  &kp CARET  &kp BACKSLASH  &kp TILDE                        &kp LEFT_BRACKET  &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &kp RIGHT_BRACKET  &none
 &none  &kp EXCLAMATION  &kp AT             &kp HASH   &kp DOLLAR     &kp PERCENT                      &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp COLON     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp SEMICOLON
 &none  &kp GRAVE        &kp QUESTION       &kp AT     &kp SLASH      &kp MINUS    &none        &none  &kp PIPE          &kp AMPERSAND         &kp ASTERISK  &kp PLUS               &kp UNDERSCORE     &kp KP_MINUS
-                                           &none      &kp LPAR       &kp RPAR     &kp UNDER    &none  &none             &none                 &none
+                                           &to 0      &kp LPAR       &kp RPAR     &kp UNDER    &none  &none             &none                 &none
             >;
         };
 
@@ -128,7 +128,7 @@
 &none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN                          &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &bootloader  &none
 &none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK                           &none  &kp LSHFT     &kp LCTRL      &kp LALT     &kp LGUI     &none
 &none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK  &none      &none  &none  &u_to_U_FUN   &u_to_U_MEDIA  &kp RALT     &none        &none
-                        &none   &kp K_APP  &kp SPACE        &kp TAB    &none  &none  &none         &none
+                        &to 0   &kp K_APP  &kp SPACE        &kp TAB    &none  &none  &none         &none
             >;
         };
     };
