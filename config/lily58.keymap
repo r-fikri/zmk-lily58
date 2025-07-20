@@ -9,6 +9,16 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Combo_toBase {
+            bindings = <&to 0>;
+            key-positions = <42 43>;
+            layers = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
