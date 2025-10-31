@@ -131,6 +131,16 @@
                         &to 0   &kp K_APP  &kp SPACE        &kp TAB    &none  &none  &none         &none
             >;
         };
+
+        layer_10 {
+            bindings = <
+&trans  &trans  &trans           &trans           &trans           &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans           &trans           &trans           &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp KP_NUMBER_0  &trans           &kp KP_NUMBER_0  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
 
