@@ -11,6 +11,9 @@ Tools :
 Video fork repository :
 [Tutorial Mapping ZMK](https://youtu.be/cAi5pnkz48M)
 
+<img width="3827" height="2705" alt="Image" src="https://github.com/user-attachments/assets/fa0b5a4a-d71e-4bee-a56c-bf8bce3d2299" />
+
+
 
 Prosedur Reset Keyboard Split
 Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
