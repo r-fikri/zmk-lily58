@@ -29,17 +29,19 @@ Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
 Keyboard ZMK menggunakan sistem Bluetooth yang aktif secara otomatis. Pada layar keyboard, Anda akan melihat angka dan simbol yang menjelaskan status koneksi.
 
 📌 1. Angka = Slot Bluetooth
-Angka yang tampil di layar menunjukkan slot penyimpanan perangkat (Bluetooth Profile).
-Contoh:
-Angka 1 di layar = menggunakan BT_SEL 0
-Angka 2 di layar = menggunakan BT_SEL 1
-Dan seterusnya
+Angka yang tampil di layar menunjukkan slot penyimpanan perangkat (Bluetooth Profile). <br>
+Contoh: <br>
+Angka 1 di layar = menggunakan BT_SEL 0 <br>
+Angka 2 di layar = menggunakan BT_SEL 1 <br>
+Dan seterusnya <br>
 Setiap slot dapat menyimpan satu perangkat.
+
 
 📌 2. Simbol “X”
 Jika muncul ikon X, artinya:
 Slot tersebut pernah digunakan, tetapi
 Tidak sedang terhubung ke perangkat mana pun
+
 
 📌 3. Pairing Ulang
 Jika ingin melakukan pairing ulang untuk slot yang sedang dipakai:
@@ -48,15 +50,16 @@ Layar akan berubah menjadi ikon gerigi (slot di-reset)
 Lakukan pairing dari perangkat Anda
 Jika berhasil, simbol akan berubah menjadi ikon centang
 
+
 📌 4. Slot Tidak Bisa Ditimpa
 Slot Bluetooth tidak bisa langsung ditimpa perangkat baru.
 Jika slot tersebut sudah pernah terhubung ke perangkat lain, Anda harus:
 Pindah ke slot lain (BT_SEL berikutnya), atau
 Hapus slot dengan tombol BT_CLR
 
-📌 5. Contoh Penggunaan Slot
-Rekomendasi pembagian slot:
-BT_SEL 0 → PC
-BT_SEL 1 → Tablet
-BT_SEL 2 → Mac
+📌 5. Contoh Penggunaan Slot <br> 
+Rekomendasi pembagian slot: <br>
+BT_SEL 0 → PC <br>
+BT_SEL 1 → Tablet <br>
+BT_SEL 2 → Mac <br>
 Dengan begitu, Anda hanya perlu mengganti slot saat berpindah perangkat.
