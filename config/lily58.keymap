@@ -29,11 +29,11 @@
         BASE {
             display-name = "Base";
             bindings = <
-&kp GRAVE              &u_to_tap 1 NUMBER_1  &u_to_tap 2 NUMBER_2  &u_to_tap 3 NUMBER_3  &u_to_tap 4 NUMBER_4  &u_to_tap 5 N5                                                 &u_to_tap 6 NUMBER_6  &u_to_tap 7 N7  &u_to_tap 8 N8  &u_to_tap 9 N9  &kp NUMBER_0         &kp MINUS
-&kp TAB                &kp Q                 &kp W                 &kp E                 &kp R                 &kp T                                                          &kp Y                 &kp U           &kp I           &kp O           &kp P                &kp BACKSLASH
-&mt LEFT_SHIFT ESCAPE  &hml LGUI A           &hml LALT S           &hml LCTRL D          &kp F                 &kp G                                                          &kp H                 &kp J           &hmr RCTRL K    &hmr LALT L     &hmr RWIN SEMICOLON  &kp SQT
-&kp LCTRL              &u_lt 3 Z             &hml RALT X           &kp C                 &kp V                 &kp B           &u_lt 8 LEFT_BRACKET    &u_lt 7 RIGHT_BRACKET  &kp N                 &kp M           &kp COMMA       &hmr RALT DOT   &kp SLASH            &kp EQUAL
-                                                                   &none                 &u_lt 6 ESC           &u_lt 4 SPACE   &kp ENTER               &kp LEFT_SHIFT         &kp BACKSPACE         &u_lt 9 DEL     &none
+&kp GRAVE              &u_to_tap 1 NUMBER_1  &u_to_tap 2 NUMBER_2  &u_to_tap 3 NUMBER_3  &u_to_tap 4 NUMBER_4  &u_to_tap 5 N5                                                 &u_to_tap 6 NUMBER_6         &u_to_tap 7 N7  &u_to_tap 8 N8  &u_to_tap 9 N9  &kp NUMBER_0         &kp MINUS
+&kp TAB                &kp Q                 &kp W                 &kp E                 &kp R                 &kp T                                                          &kp Y                        &kp U           &kp I           &kp O           &kp P                &kp BACKSLASH
+&mt LEFT_SHIFT ESCAPE  &hml LGUI A           &hml LALT S           &hml LCTRL D          &kp F                 &kp G                                                          &kp H                        &kp J           &hmr RCTRL K    &hmr LALT L     &hmr RWIN SEMICOLON  &kp SQT
+&kp LCTRL              &u_lt 3 Z             &hml RALT X           &kp C                 &kp V                 &kp B           &u_lt 8 LEFT_BRACKET    &u_lt 7 RIGHT_BRACKET  &kp N                        &kp M           &kp COMMA       &hmr RALT DOT   &kp SLASH            &kp EQUAL
+                                                                   &none                 &u_lt 6 ESC           &u_lt 4 SPACE   &kp ENTER               &kp LEFT_SHIFT         &mt LC(BACKSPACE) BACKSPACE  &u_lt 9 DEL     &none
             >;
         };
 
@@ -44,18 +44,18 @@
 &kp TAB                  &kp Q         &kp W         &kp E         &kp R         &kp T                                             &kp Y          &kp U       &kp I      &kp O       &kp P          &kp NON_US_BACKSLASH
 &mt LEFT_SHIFT CAPSLOCK  &kp A         &kp S         &kp D         &kp F         &kp G                                             &kp H          &kp J       &kp K      &kp L       &kp SEMICOLON  &kp SQT
 &kp LCTRL                &kp Z         &kp X         &kp C         &kp V         &kp B      &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N          &kp M       &kp COMMA  &kp PERIOD  &kp SLASH      &kp EQUAL
-                                                     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &kp LEFT_SHIFT      &kp ENTER          &kp BACKSPACE  &kp DELETE  &kp RCTRL
+                                                     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &kp ENTER           &kp LEFT_SHIFT     &kp BACKSPACE  &kp DELETE  &kp RCTRL
             >;
         };
 
         TAP {
             display-name = "Tap";
             bindings = <
-&none      &kp N1  &kp N2  &kp N3        &kp N4   &kp N5                                    &kp N6             &kp N7   &kp N8              &kp N9   &kp N0    &none
-&kp TAB    &kp Q   &kp W   &kp E         &kp R    &kp T                                     &kp Y              &kp U    &kp I               &kp O    &kp P     &none
-&kp LCTRL  &kp A   &kp S   &kp D         &kp F    &kp G                                     &kp H              &kp J    &kp K               &kp L    &kp SEMI  &none
-&kp LSHFT  &kp Z   &kp X   &kp C         &kp V    &kp B      &u_to_U_BASE      &u_to_U_NUM  &kp N              &kp M    &kp COMMA           &kp DOT  &kp FSLH  &none
-                           &kp LEFT_ALT  &kp ESC  &kp SPACE  &kp LEFT_SHIFT    &kp RET      &mt LC(BSPC) BSPC  &kp DEL  &kp K_CONTEXT_MENU
+&none      &kp N1  &kp N2  &kp N3        &kp N4   &kp N5                                      &kp N6             &kp N7   &kp N8              &kp N9   &kp N0    &none
+&kp TAB    &kp Q   &kp W   &kp E         &kp R    &kp T                                       &kp Y              &kp U    &kp I               &kp O    &kp P     &none
+&kp LCTRL  &kp A   &kp S   &kp D         &kp F    &kp G                                       &kp H              &kp J    &kp K               &kp L    &kp SEMI  &none
+&kp LSHFT  &kp Z   &kp X   &kp C         &kp V    &kp B      &u_to_U_BASE    &u_to_U_NUM      &kp N              &kp M    &kp COMMA           &kp DOT  &kp FSLH  &none
+                           &kp LEFT_ALT  &kp ESC  &kp SPACE  &kp ENTER       &kp RIGHT_SHIFT  &mt LC(BSPC) BSPC  &kp DEL  &kp K_CONTEXT_MENU
             >;
         };
 
